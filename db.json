@@ -1,0 +1,53 @@
+{
+  "details": [
+    {
+      "id": 1,
+      "name": "manoj",
+      "email": "manoj@gmail.com",
+      "phoneno": "7777770205",
+      "country": "india"
+    },
+    {
+      "id": 2,
+      "name": "pavan",
+      "email": "pavan@gmail.com",
+      "phoneno": "8777770202",
+      "country": "india"
+    },
+    {
+      "id": 3,
+      "name": "sony",
+      "email": "sony@gmail.com",
+      "phoneno": "8783330203",
+      "country": "india"
+    },
+    {
+      "id": 4,
+      "name": "om",
+      "email": "om@gmail.com",
+      "phoneno": "8755770204",
+      "country": "india"
+    },
+    {
+      "id": 5,
+      "name": "pasha",
+      "email": "pasha@gmail.com",
+      "phoneno": "8448770205",
+      "country": "india"
+    },
+    {
+      "name": " hfggsh",
+      "email": "manoj@gmail.com",
+      "phoneno": " 254369",
+      "country": " china",
+      "id": 6
+    },
+    {
+      "name": " mnbvc",
+      "email": "dho@gmail.com",
+      "phoneno": " 123654789",
+      "country": " china",
+      "id": 7
+    }
+  ]
+}

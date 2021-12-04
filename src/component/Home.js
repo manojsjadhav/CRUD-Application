@@ -47,7 +47,7 @@ const Home = () => {
 
   return (
     <div>
-      <table className="table table-dark">
+      <table className="table table-dark mt-5">
         <thead>
           <tr>
             <th scope="col">id</th>

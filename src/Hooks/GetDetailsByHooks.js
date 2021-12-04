@@ -5,7 +5,7 @@ export default (props) => {
   const [detailsById, setDetailsById] = useState({});
   const GetDetailsByHooks = (requestId) => {
     return GetDetailsById(requestId).then((res) => {
-      console.log("responsdata is ________", res);
+      console.log("responsdata is  ________", res);
       setDetailsById(res);
     });
   };

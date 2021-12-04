@@ -20,13 +20,22 @@ const Edit = () => {
 
   useEffect(() => {
     const datares = () => {
-      if (detailsById.data) {
-        setUser(detailsById.data.user);
+      console.log(detailsById);
+      if (detailsById) {
+        setUser((prevval) => {
+          return {
+            ...prevval,
+            name: detailsById?.data?.name,
+            email: detailsById?.data?.email,
+            phoneno: detailsById?.data?.phoneno,
+            country: detailsById?.data?.country,
+          };
+        });
       }
     };
     datares();
-  }, [detailsById.data]);
-
+  }, [detailsById]);
+  console.log(user, "useruser");
   const handlInput = (e) => {
     const name = e.target.name;
     const value = e.target.value;
